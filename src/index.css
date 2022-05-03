@@ -5,8 +5,9 @@
   --light-slate-color: #ccd6f6;
   --slate-color: #8892b0;
   --light-blue-color: #64b5ff;
-  --main-font: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  --main-font: 'Poppins', 'Montserrat', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+    sans-serif;
 }
 
 *,
@@ -64,6 +65,19 @@ img {
   transition: all 0.4s ease;
 }
 
+.btn-primary-alt {
+  background-color: var(--light-blue-color);
+  border: thin solid var(--light-blue-color);
+  border-radius: 0.25rem;
+  color: #000;
+  padding: 0.5rem 1rem;
+  transition: all 0.4s ease;
+}
+
+.btn-primary-alt:hover {
+  opacity: .85;
+}
+
 .btn-primary:hover {
   background-color: rgba(100, 180, 255, 0.25);
 }
@@ -72,16 +86,26 @@ img {
 
 .navbar {
   align-items: center;
+  background-color: var(--light-navy-color);
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
-  margin: auto;
-  max-width: 1200px;
+  justify-content: space-around;
   padding: 0.5rem 1rem;
 }
 
 .logo {
   max-width: 40px;
+}
+
+.nav-links {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+}
+
+.nav-link {
+  font-size: 1.5rem;
 }
 
 .main__container {
@@ -101,14 +125,14 @@ img {
 /* DETAILS  */
 
 .personal__card,
-.experience__card {
+.experience__card,
+.hobbies__container {
   background-color: var(--light-navy-color);
   border-radius: 0.25rem;
   display: flex;
   flex-flow: column nowrap;
   padding: 1rem;
   margin: auto;
-  max-width: 375px;
   width: 100%;
 }
 
@@ -118,7 +142,8 @@ img {
   color: var(--slate-color);
 }
 
-.personal__card-img img {
+.personal__card-img img,
+.hobbie__card-img img {
   border-radius: 0.25rem;
   overflow: hidden;
 }
@@ -139,17 +164,28 @@ img {
 
 /* Experience */
 
-.experience__card {
+.experience__card,
+.hobbies__container {
   gap: 1rem;
 }
 
+.dates,
+.experience__desc {
+  color: var(--slate-color);
+}
+
+.experience__desc {
+  font-size: 0.85rem;
+  margin: 0;
+}
+
 .experience__item {
+  align-items: center;
   display: flex;
   flex-flow: row nowrap;
   gap: 1rem;
 }
 
-.experience__item-img,
 .experience__item-img img {
   border-radius: 50%;
   max-width: 100px;
@@ -181,9 +217,32 @@ img {
 }
 
 .skill__item {
+  align-items: center;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 0.5rem;
+}
+
+progress {
+  background-color: var(--slate-color);
+  border-radius: 0.25rem;
+  height: .85rem;
+}
+
+progress::-webkit-progress-bar {
+  background-color: var(--slate-color);
+  border-radius: 0.25rem;
+}
+
+progress::-moz-progress-bar {
+  background-color: var(--slate-color);
+  border-radius: 0.25rem;
+}
+
+progress::-webkit-progress-value {
+  background-color: var(--light-blue-color);
+  border-radius: 0.25rem;
+
 }
 
 /* Project Card */
@@ -196,7 +255,8 @@ img {
 }
 
 .projects__list,
-.experience__list {
+.experience__list,
+.hobbies__list {
   display: flex;
   flex-flow: column nowrap;
   gap: 0.75rem;
@@ -220,7 +280,6 @@ img {
 
 .project__card-img {
   border-radius: 0.25rem;
-  max-width: 350px;
   overflow: hidden;
 }
 
@@ -252,7 +311,17 @@ img {
     grid-template-columns: auto 1fr;
   }
 
+  .personal__card,
+  .experience__card,
+  .hobbies__container {
+    max-width: 375px;
+  }
+
   .project__card {
     flex-wrap: nowrap;
+  }
+
+  .project__card-img {
+    max-width: 350px;
   }
 }

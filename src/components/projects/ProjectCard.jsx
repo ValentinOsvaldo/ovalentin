@@ -29,10 +29,10 @@ export const ProjectCard = ({
         <h3 className="project__name">{name}</h3>
         <p className="project__description">{description}</p>
         <div className="project__links">
-          <a href={demo} className="btn-primary">
+          <a href={ demo } target="_blank" rel="noopener noreferrer" className="btn-primary-alt">
             Demo
           </a>
-          <a href={code} className="btn-primary">
+          <a href={code} target="_blank" rel="noopener noreferrer" className="btn-primary">
             Code
           </a>
         </div>

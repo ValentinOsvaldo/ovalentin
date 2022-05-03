@@ -21,6 +21,16 @@ const front = [
     name: 'React',
     value: 50
   },
+  {
+    id: 5,
+    name: 'Typescript',
+    value: 50
+  },
+  {
+    id: 6,
+    name: 'VueJs',
+    value: 40
+  },
 ]
 
 const back = [

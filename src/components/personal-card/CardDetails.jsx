@@ -24,13 +24,15 @@ export const CardDetails = () => {
             <i className="bx bxs-phone"></i>
             <span>+52 8123 2363 94</span>
           </div>
+          <div className="contact__item">
+            <i className="bx bxs-map"></i>
+            <span>San Nicolas de los Garza, Nuevo León, México</span>
+          </div>
         </div>
 
         <p className="details__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem
-          deserunt doloremque est architecto maxime quidem earum rerum ut cum,
-          eaque nesciunt harum commodi deleniti voluptatem maiores. Tempore, ex
-          amet!
+          Desarrollador front end, egresado de Conalep en la carrera de informática desde 2020.
+          Con mas de 2 años con experiencia en el área de la tecnología.
         </p>
       </div>
     </div>

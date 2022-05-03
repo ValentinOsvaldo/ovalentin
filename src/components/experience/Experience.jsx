@@ -3,18 +3,18 @@ import { ExperienceCard } from './ExperienceCard';
 const experience = [
   {
     id: 1,
-    name: 'AETO',
+    name: 'Front End Dev',
     dateStart: '2022',
     dateEnd: '',
-    desc: '',
+    desc: 'Desarrollo de interfaces de usuario, añadiendo interación con javascript',
     img: 'https://media-exp1.licdn.com/dms/image/C4E0BAQG9a6Cmqek9_A/company-logo_200_200/0/1617662731007?e=2147483647&v=beta&t=g80kouKa3LcRfDzlijyfSlJoUfMzJPns_0Y88jd8cJ0',
   },
   {
     id: 2,
-    name: 'Golden TI',
+    name: 'IT engineer',
     dateStart: '2019',
     dateEnd: '2022',
-    desc: '',
+    desc: 'Instalación de servicios de telecomunicación por voz y datos',
     img: 'https://media-exp1.licdn.com/dms/image/C560BAQFiQRFh6Nl5kw/company-logo_200_200/0/1566335194286?e=2147483647&v=beta&t=oGDtZ-SCGI087qkiMO7KO1SiCmvIPyuN12gWB6TSsuk',
   },
 ];

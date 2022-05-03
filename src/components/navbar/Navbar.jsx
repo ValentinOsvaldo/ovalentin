@@ -7,12 +7,25 @@ export const Navbar = () => {
         <img src={logo} alt="Osvaldo Valentin - Front End Logo" />
       </div>
 
-      <nav>
-        <a href="http://https://github.com/ValentinOsvaldo" target="_blank" rel="noopener noreferrer">
-          <i className='bx bxl-github'></i>
+      <nav className="nav-links">
+        <a
+          href="https://github.com/ValentinOsvaldo"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="nav-link"
+        >
+          <i className="bx bxl-github"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/valentin-osvaldo/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="nav-link"
+        >
+          <i className="bx bxl-linkedin"></i>
         </a>
         <a href="#" className="btn-primary">
-          CV
+          Resume
         </a>
       </nav>
     </header>

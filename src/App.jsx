@@ -1,4 +1,5 @@
 import { Experience } from './components/experience/Experience';
+import { Hobbies } from './components/hobbies/Hobbies';
 import { Navbar } from './components/navbar/Navbar';
 import { CardDetails } from './components/personal-card/CardDetails';
 import { Projects } from './components/projects/Projects';
@@ -12,6 +13,7 @@ export const App = () => {
         <aside className='aside__container'>
           <CardDetails />
           <Experience />
+          <Hobbies />
         </aside>
         <section className='content__wrapper'>
           <Skills />

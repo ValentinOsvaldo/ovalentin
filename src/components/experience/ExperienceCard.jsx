@@ -7,10 +7,10 @@ export const ExperienceCard = ({ img, name, dateStart, dateEnd, desc }) => {
 
       <div className="experience__item-body">
         <small className="dates">
-          { dateStart } - { dateEnd === '' ? 'Today' : dateEnd }
+          { dateStart } - { dateEnd === '' ? 'Actualmente' : dateEnd }
         </small>
         <h4>{ name }</h4>
-        <p>
+        <p className="experience__desc">
           { desc }
         </p>
       </div>
