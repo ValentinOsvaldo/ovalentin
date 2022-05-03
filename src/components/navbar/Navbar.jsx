@@ -1,4 +1,5 @@
 import logo from '../../assets/Logo.svg';
+import pdf from '../../assets/Osvaldo_Valentin_Garcia.pdf'
 
 export const Navbar = () => {
   return (
@@ -24,8 +25,8 @@ export const Navbar = () => {
         >
           <i className="bx bxl-linkedin"></i>
         </a>
-        <a href="#" className="btn-primary">
-          Resume
+        <a href={ pdf } className="btn-primary">
+          Curriculum
         </a>
       </nav>
     </header>
