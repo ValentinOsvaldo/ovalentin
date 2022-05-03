@@ -33,7 +33,7 @@ export const ProjectCard = ({
             Demo
           </a>
           <a href={code} target="_blank" rel="noopener noreferrer" className="btn-primary">
-            Code
+            Código
           </a>
         </div>
       </div>

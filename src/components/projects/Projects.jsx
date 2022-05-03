@@ -15,7 +15,7 @@ const projects = [
     img: 'https://i.imgur.com/F2pZNAL.png',
     name: 'Gif Expert App',
     tags: ['HTML', 'CSS', 'React'],
-    description: 'Proyecto usando api de Giphy',
+    description: 'Usando el API de Giphy hice una aplicación con un buscador que trae los 10 primeros elementos que encuentra.',
     code: 'https://github.com/ValentinOsvaldo/gif-expert-app',
     demo: 'https://valentinosvaldo.github.io/gif-expert-app/',
   },
