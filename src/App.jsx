@@ -13,7 +13,6 @@ export const App = () => {
         <aside className='aside__container'>
           <CardDetails />
           <Experience />
-          <Hobbies />
         </aside>
         <section className='content__wrapper'>
           <Skills />

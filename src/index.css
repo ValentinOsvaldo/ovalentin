@@ -132,7 +132,6 @@ img {
   display: flex;
   flex-flow: column nowrap;
   padding: 1rem;
-  margin: auto;
   width: 100%;
 }
 
@@ -299,6 +298,10 @@ progress::-webkit-progress-value {
 .project-tag,
 .project__description {
   color: var(--slate-color);
+}
+
+.project__description {
+  margin-top: 0;
 }
 
 .project__links {

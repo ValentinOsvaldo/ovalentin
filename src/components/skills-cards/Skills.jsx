@@ -19,12 +19,12 @@ const front = [
   {
     id: 4,
     name: 'React',
-    value: 50
+    value: 75
   },
   {
     id: 5,
     name: 'Typescript',
-    value: 50
+    value: 75
   },
   {
     id: 6,
@@ -37,7 +37,7 @@ const back = [
   {
     id: 1,
     name: 'NodeJs',
-    value: 50
+    value: 75
   },
   {
     id: 2,

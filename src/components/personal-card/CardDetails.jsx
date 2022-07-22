@@ -31,8 +31,9 @@ export const CardDetails = () => {
         </div>
 
         <p className="details__description">
-          Desarrollador front end, egresado de Conalep en la carrera de informática desde 2020.
-          Con mas de 2 años con experiencia en el área de la tecnología.
+          Desarrollador <strong>Front End</strong>, actualmente me especializo en desarrollar aplicaciones usando <strong>React</strong>. Tengo mas de <strong>2 años trabajando para el sector TI</strong>.
+          <br />
+          También me encuentro preparandome para desarrollar aplicaciones moviles y aplicaciones Back End con NodeJs (express)
         </p>
       </div>
     </div>
