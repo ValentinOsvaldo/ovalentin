@@ -6,7 +6,7 @@ const experience = [
     name: 'Front End Dev',
     dateStart: '2022',
     dateEnd: '',
-    desc: 'Desarrollo de interfaces de usuario, añadiendo interación con javascript',
+    desc: 'Desarrollo y diseño para aplicaciónes web y móviles.',
     img: 'https://media-exp1.licdn.com/dms/image/C4E0BAQG9a6Cmqek9_A/company-logo_200_200/0/1617662731007?e=2147483647&v=beta&t=g80kouKa3LcRfDzlijyfSlJoUfMzJPns_0Y88jd8cJ0',
   },
   {
@@ -14,7 +14,7 @@ const experience = [
     name: 'IT engineer',
     dateStart: '2019',
     dateEnd: '2022',
-    desc: 'Instalación de servicios de telecomunicación por voz y datos',
+    desc: 'Instalación de servicios en telecomunicación, cámaras de seguridad y mantenimiento de equipos computacionales.',
     img: 'https://media-exp1.licdn.com/dms/image/C560BAQFiQRFh6Nl5kw/company-logo_200_200/0/1566335194286?e=2147483647&v=beta&t=oGDtZ-SCGI087qkiMO7KO1SiCmvIPyuN12gWB6TSsuk',
   },
 ];

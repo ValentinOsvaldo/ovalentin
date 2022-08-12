@@ -180,8 +180,10 @@ img {
 
 .experience__item {
   align-items: center;
-  display: flex;
-  flex-flow: row nowrap;
+  /* display: flex;
+  flex-flow: row nowrap; */
+  display: grid;
+  grid-template-columns: auto 1fr;
   gap: 1rem;
 }
 
@@ -234,15 +236,14 @@ progress::-webkit-progress-bar {
 }
 
 progress::-moz-progress-bar {
-  background-color: var(--slate-color);
-  border-radius: 0.25rem;
+  background-color: var(--light-blue-color);
 }
 
 progress::-webkit-progress-value {
   background-color: var(--light-blue-color);
   border-radius: 0.25rem;
-
 }
+
 
 /* Project Card */
 
