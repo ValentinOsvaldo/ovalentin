@@ -228,6 +228,7 @@ progress {
   background-color: var(--slate-color);
   border-radius: 0.25rem;
   height: .85rem;
+  border: thin solid transparent;
 }
 
 progress::-webkit-progress-bar {

@@ -6,7 +6,7 @@ const experience = [
     name: 'Front End Dev',
     dateStart: '2022',
     dateEnd: '',
-    desc: 'Desarrollo y diseño para aplicaciónes web y móviles.',
+    desc: 'Desarrollo de aplicaciones web, responsivas, donde se consumen JSON a traves de APIs con Vanilla Javascript. También desarrollo de aplicaciones moviles con React Native',
     img: 'https://media-exp1.licdn.com/dms/image/C4E0BAQG9a6Cmqek9_A/company-logo_200_200/0/1617662731007?e=2147483647&v=beta&t=g80kouKa3LcRfDzlijyfSlJoUfMzJPns_0Y88jd8cJ0',
   },
   {

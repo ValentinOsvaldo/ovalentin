@@ -10,7 +10,7 @@ export const CardDetails = () => {
       <div className="personal__card-body">
         <div className="card__title">
           <h1>Osvaldo Valentin</h1>
-          <h2 className='sub'>
+          <h2 className="sub">
             <small>Front End Dev</small>
           </h2>
         </div>
@@ -31,9 +31,30 @@ export const CardDetails = () => {
         </div>
 
         <p className="details__description">
-          Desarrollador <strong>Front End</strong>, actualmente me especializo en desarrollar aplicaciones usando <strong>React</strong>. Tengo mas de <strong>2 años trabajando para el sector TI</strong>.
+          Actualmente soy desarrollador <strong>Front End</strong> con{' '}
+          <strong>ReactJs</strong> y <strong>NextJs</strong>.
           <br />
-          También me encuentro preparandome para desarrollar aplicaciones moviles y aplicaciones Back End con NodeJs (express)
+          <br />
+          Me considero una persona <strong>proactiva</strong>,{' '}
+          <strong>responsable</strong>, <strong>resiliente</strong> y <strong>autodidacta</strong>
+          <br />
+          <br />
+          Tengo experiencia en la creación de aplicaciones web, en las cuales he
+          puesto en practica los siguientes conceptos:
+          <ul>
+            <li>Conocimiento en HTML, CSS, Javascript</li>
+            <li>Diseño responsivo</li>
+            <li>
+              Consumo de APIs en formato <strong>JSON</strong>
+            </li>
+            <li>
+              Uso de manejadores de estado con <strong>Redux</strong>
+            </li>
+            <li>
+              Uso de herramientas de control de versiones con{' '}
+              <strong>Git</strong> y Github
+            </li>
+          </ul>
         </p>
       </div>
     </div>
