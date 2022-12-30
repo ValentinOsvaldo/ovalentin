@@ -23,7 +23,7 @@ const projects = [
     tags: ['HTML', 'CSS', 'React'],
     description: '',
     code: 'https://github.com/ValentinOsvaldo/todo-app',
-    demo: 'https://todo-app-git-main-valentinosvaldo.vercel.app/',
+    demo: 'https://todo-app-lyart-chi.vercel.app/#/',
   },
   {
     img: 'https://i.imgur.com/vBUhNTX.png',
